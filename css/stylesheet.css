@@ -1,37 +1,199 @@
+/* GENERAL */
 
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
 
+
+/* 
+    ~~~~~~~~~~~~~~~~
+      MENU STYLING 
+    ~~~~~~~~~~~~~~~~
+*/
+
+#nav-trigger {
+  display: none;
+  text-align: center;
+  background-color: #333333;
+  /*position: fixed;*/
+  width: 100%;
+  padding: 10px 30px;
+}
+
+#nav-trigger span {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #333333;
+  color: #efefef;
+  cursor: pointer;
+  text-transform: uppercase;
+  /*font-weight: bold;
+  margin-bottom: 10px;*/
+}
+
+#nav-trigger span:after {
+  display: inline-block;
+  margin-left: 10px;
+  width: 20px;
+  height: 10px;
+  content: "";
+  border-top: solid 10px #00ccd6;
+  border-left: solid 10px transparent;
+  border-right: solid 10px transparent; 
+}
+
+#nav-trigger span:hover{
+  background-color: #333333;
+  color: #00ccd6;
+}
+
+#nav-trigger span.open:after {
+  border-left: solid 10px transparent;
+  border-top: none;
+  border-bottom: solid 10px #00ccd6;
+  border-right: solid 10px transparent; 
+}
+
+/*nav {
+  margin-bottom: 30px;
+}*/
+
+nav#nav-main {
+  background-color: #333333;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-family: Open Sans;
+  position: fixed;
+  width: 100%;
+}
+
+nav#nav-main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav#nav-main li {
+  display: inline-block;
+  border-right: solid 1px #00ccd6;
+  padding: 0 5px;
+  /*font-weight: bold;*/
+
+}
+
+nav#nav-main li:last-child {
+  border-right: none;
+}
+
+nav#nav-main a {
+  display: block;
+  color: #efefef;
+  padding: 10px 30px;
+ }
+
+nav#nav-main a:hover {
+  background-color: #333333;
+  color: #00ccd6;
+  text-decoration: none;
+}
+
+nav#nav-mobile {
+  position: relative;
+  display: none; 
+}
+
+nav#nav-mobile ul {
+  display: none;
+  list-style-type: none;
+  /*position: absolute;*/
+  left: 0;
+  right: 0;
+  margin-left: -30px;
+  text-align: center;
+  background-color: #333333;
+  margin-bottom: 0px !important;
+}
+
+nav#nav-mobile li {
+  display: block;
+  /*padding: 5px 0;*/
+  margin: 0 -5px;
+  border-bottom: solid 1px #00ccd6;
+}
+
+nav#nav-mobile li:last-child {
+  border-bottom: none; 
+}
+
+nav#nav-mobile a {
+  display: block;
+  color: #efefef;
+  padding: 10px 30px;
+  /*font-weight: bold;*/
+}
+
+nav#nav-mobile a:hover {
+  background-color: #333333;
+  color: #00ccd6;
+  text-decoration: none; 
+}
+
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+}
+
+
+/* 
+    ~~~~~~~~~~~~~~~~~~~~
+      PARALLAX STYLING 
+    ~~~~~~~~~~~~~~~~~~~~
+*/
 section.module:last-child {
   margin-bottom: 0;
 }
+
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
+  font-family: Open Sans;
   font-size: 30px;
 }
+
 section.module p {
   margin-bottom: 40px;
   font-size: 16px;
   font-weight: 300;
 }
+
 section.module p:last-child {
   margin-bottom: 0;
 }
+
 section.module.content {
   padding: 40px 0;
+  color: #efefef;
+  background-color: #333333 !important;
 }
+
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background size: cover;
+  max-width: 100%;
 }
+
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   font-size: 48px;
   line-height: 600px;
   font-weight: 700;
@@ -39,29 +201,79 @@ section.module.parallax h1 {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 section.module.parallax-1 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4879.png");
-}
-section.module.parallax-2 {
   background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4953.png");
 }
+
+section.module.parallax-2 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4891.png");
+}
+
 section.module.parallax-3 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4973.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4958.png");
 }
 
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;
   }
+
   section.module p {
     font-size: 20px;
   }
+
   section.module.parallax h1 {
     font-size: 96px;
   }
 }
+
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
   }
+}
+
+/* 
+    ~~~~~~~~~~~~~~~~~~~
+      FOOTER STYLING 
+    ~~~~~~~~~~~~~~~~~~~
+*/
+
+.footer {
+  /*padding-top: 20px;*/
+  clear: both;
+  text-align: center;
+  margin-left: -35px !important;
+  background-color: #333333;
+}
+
+.footer img {
+  height: 35px;
+  opacity: 1.0;
+}
+
+.footer img:hover{
+  opacity: 0.6;
+}
+
+.footer li {
+  display: inline-block;
+  font-family: Open Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.rights {
+  text-align: center;
+  font-size: 9px;
+  background-color: #333333;
+  color: #efefef;
+}
+
+.rights p {
+  margin: 0 0 -10px;
+  padding-bottom: 20px;
 }
