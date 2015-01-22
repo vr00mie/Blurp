@@ -245,7 +245,7 @@ section.module.parallax h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 section.module.parallax.parallax-4 h1 {
@@ -255,7 +255,7 @@ section.module.parallax.parallax-4 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 section.module.parallax.parallax-5 h1 {
@@ -265,7 +265,7 @@ section.module.parallax.parallax-5 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 section.module.parallax.parallax-6 h1 {
@@ -275,9 +275,18 @@ section.module.parallax.parallax-6 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
+section.module.parallax.parallax-7 h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
 
 .container img{
   max-width: 500px;
@@ -306,7 +315,41 @@ section.module.parallax-5 {
 }
 
 section.module.parallax-6 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4897.png");
+}
+
+section.module.parallax-7 {
   background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4937.png");
+}
+
+@media all and (min-width: 360px) {
+  section.module h2 {
+    font-size: 20px;
+  }
+
+  section.module p {
+    font-size: 14px;
+  }
+
+  section.module.parallax h1 {
+    font-size: 25px;
+  }
+
+  section.module.parallax.parallax-4 img {
+    width: 100%;
+  }
+
+  section.module.parallax.parallax-5 h1 {
+    font-size: 20px;
+  }
+
+  section.module.parallax.parallax-6 h1 {
+    font-size: 20px;
+  }
+
+  section.module.parallax.parallax-7 h1 {
+    font-size: 20px;
+  }
 }
 
 @media all and (min-width: 600px) {
@@ -321,8 +364,16 @@ section.module.parallax-6 {
   section.module.parallax h1 {
     font-size: 96px;
   }
+
+    section.module.parallax.parallax-5 h1 {
+    font-size: 40px;
+  }
+
+  section.module.parallax.parallax-6 h1 {
+    font-size: 40px;
+  }
   
-  section.module.parallax.parallax-4 h1 {
+  section.module.parallax.parallax-7 h1 {
     font-size: 40px;
   }
 
@@ -331,6 +382,18 @@ section.module.parallax-6 {
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
+  }
+
+  section.module.parallax.parallax-5 h1 {
+    font-size: 40px;
+  }
+
+  section.module.parallax.parallax-6 h1 {
+    font-size: 40px;
+  }
+
+  section.module.parallax.parallax-7 h1 {
+    font-size: 40px;
   }
 }
 
