@@ -5,12 +5,17 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #424242;
+}
+
 
 /* 
     ~~~~~~~~~~~~~~~~
       MENU STYLING 
     ~~~~~~~~~~~~~~~~
 */
+
 
 #nav-trigger {
   display: none;
@@ -99,6 +104,10 @@ nav#nav-main a:hover {
   text-decoration: none;
 }
 
+#nav-main a.active {
+  color: #00ccd6;
+}
+
 nav#nav-mobile {
   position: relative;
   display: none; 
@@ -151,6 +160,32 @@ nav#nav-mobile a:hover {
     display: block; }
 }
 
+/*
+.cmn-t-underline {
+  position: relative;
+  color: #00ccd6;
+}
+
+.cmn-t-underline:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 0;
+  height: 5px;
+  background-color: #00ccd6;
+  content: "";
+  transition: width 0.2s;
+}
+
+.cmn-t-underline:hover {
+  color: #00ccd6;
+}
+.cmn-t-underline:hover:after {
+  width: 100%;
+}
+*/
+
 
 /* 
     ~~~~~~~~~~~~~~~~~~~~
@@ -183,6 +218,17 @@ section.module.content {
   background-color: #333333 !important;
 }
 
+section.module.content-2 {
+  padding: 40px 0;
+  color: #efefef;
+  background-color: #333333 !important;
+  text-align: center;
+}
+
+section.module.content-2 h2{
+  font-size: 20px;
+}
+
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;
@@ -202,16 +248,65 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+section.module.parallax.parallax-4 h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax.parallax-5 h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax.parallax-6 h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.container img{
+  max-width: 500px;
+  max-height: 500px;
+}
+
+
 section.module.parallax-1 {
   background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4953.png");
 }
 
-section.module.parallax-2 {
+/*section.module.parallax-2 {
   background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4891.png");
-}
+} */
 
 section.module.parallax-3 {
   background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4958.png");
+}
+
+section.module.parallax-4 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4973.png");
+}
+
+section.module.parallax-5 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4932.png");
+}
+
+section.module.parallax-6 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4937.png");
 }
 
 @media all and (min-width: 600px) {
@@ -226,6 +321,11 @@ section.module.parallax-3 {
   section.module.parallax h1 {
     font-size: 96px;
   }
+  
+  section.module.parallax.parallax-4 h1 {
+    font-size: 40px;
+  }
+
 }
 
 @media all and (min-width: 960px) {
@@ -276,4 +376,13 @@ section.module.parallax-3 {
 .rights p {
   margin: 0 0 -10px;
   padding-bottom: 20px;
+}
+
+.pages-footer {
+  width:100%;
+  height:80px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background:#ee5;
 }
