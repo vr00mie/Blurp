@@ -306,7 +306,7 @@ section.module.parallax.parallax-7 h1 {
 
 
 section.module.parallax-1 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4953.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4953_compressed.jpg");
 }
 
 /*section.module.parallax-2 {
@@ -314,23 +314,23 @@ section.module.parallax-1 {
 } */
 
 section.module.parallax-3 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4958.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4958_compressed.jpg");
 }
 
 section.module.parallax-4 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4973.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4973_compressed.jpg");
 }
 
 section.module.parallax-5 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4932.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4932_compressed.jpg");
 }
 
 section.module.parallax-6 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4897.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4879_compressed.jpg");
 }
 
 section.module.parallax-7 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4937.png");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4937_compressed.jpg");
 }
 
 @media all and (min-width: 360px) {
