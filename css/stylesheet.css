@@ -200,22 +200,34 @@ section.module h2 {
   margin-bottom: 40px;
   font-family: Open Sans;
   font-size: 30px;
-}
-
-section.module h2 a{
-  color: #efefef;
-  text-decoration: none;
   text-align: center;
 }
 
-section.module h2 a:hover{
+section.module h2 a{
   color: #00ccd6;
+  text-decoration: none;
+  text-align: center;
+  opacity: 1.0;
+}
+
+section.module h2 a:hover{
+  opacity: 0.6;
 }
 
 section.module p {
   margin-bottom: 40px;
   font-size: 16px;
   font-weight: 300;
+}
+
+section.module p a{
+ text-decoration: none;
+ color: #00ccd6;
+ opacity: 1.0;
+}
+
+section.module p a:hover{
+ opacity: 0.6;
 }
 
 section.module p:last-child {
@@ -335,7 +347,7 @@ section.module.parallax-5 {
 }
 
 section.module.parallax-6 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_5113.JPG");
+  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4956.jpg");
 }
 
 section.module.parallax-7 {
@@ -352,22 +364,26 @@ section.module.parallax-7 {
   max-width: 300px;
   max-height: 300px;
   margin-left: -20px;
-}
+  }
 
   section.module p {
     font-size: 15px;
   }
 
   section.module.parallax.parallax-1 h1 {
-    font-size: 25px;
+    font-size: 30px;
+  }
+
+  section.module.parallax.parallax-3 h1 {
+    font-size: 20px;
   }
   
   section.module.parallax.parallax-4 h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
  section.module.parallax.parallax-5 h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
    section.module.parallax.parallax-6 h1 {
@@ -375,13 +391,13 @@ section.module.parallax-7 {
   }
 
    section.module.parallax.parallax-7 h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media all and (min-width: 600px) {
   section.module h2 {
-    font-size: 42px;
+    font-size: 25px;
   }
 
   section.module p {
@@ -392,6 +408,10 @@ section.module.parallax-7 {
     font-size: 96px;
   }
   
+  section.module.parallax.parallax-3 h1 {
+    font-size: 75px;
+  }
+
   section.module.parallax.parallax-4 h1 {
     font-size: 75px;
   }
@@ -415,24 +435,33 @@ section.module.parallax-7 {
 }
 
 @media all and (min-width: 960px) {
+
+  section.module h2 {
+    font-size: 35px;
+  }
+
   section.module.parallax.parallax-1 h1 {
     font-size: 96px;
   }
 
+    section.module.parallax.parallax-3 h1 {
+    font-size: 50px;
+  }
+
     section.module.parallax.parallax-4 h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   section.module.parallax.parallax-5 h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
    section.module.parallax.parallax-6 h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
    section.module.parallax.parallax-7 h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
