@@ -719,6 +719,10 @@ section.module.parallax-7 {
     font-size: 35px;
   }
 
+  section.module.parallax-1 {
+    height: 680px;
+  }
+
   section.module.parallax.parallax-1 h1 {
     font-size: 150px;
   }
