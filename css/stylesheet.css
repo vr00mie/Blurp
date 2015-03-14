@@ -68,7 +68,7 @@ nav#nav-main {
   background-color: #333333;
   padding: 10px 0;
   text-transform: uppercase;
-  font-family: Open Sans;
+  font-family: "Roboto";
   position: fixed;
   width: 100%;
 }
@@ -192,13 +192,24 @@ nav#nav-mobile a:hover {
       PARALLAX STYLING 
     ~~~~~~~~~~~~~~~~~~~~
 */
+
+@font-face{
+  font-family: "Manifesto";
+  src: url("../fonts/MANIFESTO.ttf");
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
 section.module:last-child {
   margin-bottom: 0;
 }
 
 section.module h2 {
   margin-bottom: 40px;
-  font-family: Open Sans;
+  font-family: "Roboto";
   font-size: 30px;
   text-align: center;
 }
@@ -216,8 +227,9 @@ section.module h2 a:hover{
 
 section.module p {
   margin-bottom: 40px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
+  font-family: "Roboto";
 }
 
 section.module p a{
@@ -263,11 +275,12 @@ section.module.parallax {
 section.module.parallax h1 {
   color: white;
   font-size: 48px;
+  font-family: "Manifesto";
   line-height: 600px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 section.module.parallax.parallax-3 h1 {
@@ -277,7 +290,7 @@ section.module.parallax.parallax-3 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 section.module.parallax.parallax-4 h1 {
@@ -287,7 +300,7 @@ section.module.parallax.parallax-4 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 section.module.parallax.parallax-5 h1 {
@@ -297,7 +310,7 @@ section.module.parallax.parallax-5 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 section.module.parallax.parallax-6 h1 {
@@ -307,7 +320,7 @@ section.module.parallax.parallax-6 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 section.module.parallax.parallax-7 h1 {
@@ -317,7 +330,7 @@ section.module.parallax.parallax-7 h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
 }
 
 .container img{
@@ -441,27 +454,27 @@ section.module.parallax-7 {
   }
 
   section.module.parallax.parallax-1 h1 {
-    font-size: 96px;
+    font-size: 150px;
   }
 
     section.module.parallax.parallax-3 h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
     section.module.parallax.parallax-4 h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   section.module.parallax.parallax-5 h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
    section.module.parallax.parallax-6 h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
    section.module.parallax.parallax-7 h1 {
-    font-size: 50px;
+    font-size: 60px;
   }
 }
 
