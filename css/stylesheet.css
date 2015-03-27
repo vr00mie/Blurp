@@ -109,14 +109,13 @@ nav#nav-main a:hover {
 }
 
 nav#nav-mobile {
-  position: relative;
+  position: absolute;
   display: none; 
 }
 
 nav#nav-mobile ul {
   display: none;
   list-style-type: none;
-  /*position: absolute;*/
   left: 0;
   right: 0;
   margin-left: -30px;
@@ -379,6 +378,11 @@ section.module.parallax-7 {
   section.module h2 {
     font-size: 20px;
   }
+
+    section.module.parallax {
+    background-attachment: scroll;
+  }
+
 
   .container img{
   max-width: 300px;
