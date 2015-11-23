@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #333333;
+  background-color: #efefef;
 }
 
 
@@ -20,7 +20,7 @@ body {
 #nav-trigger {
   display: none;
   text-align: center;
-  background-color: #333333;
+  background-color: #efefef;
   position: relative;
   width: 100%;
   padding: 10px 30px;
@@ -29,8 +29,7 @@ body {
 #nav-trigger span {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #333333;
-  color: #efefef;
+  color: #333333;
   cursor: pointer;
   text-transform: uppercase;
   /*font-weight: bold;
@@ -43,20 +42,20 @@ body {
   width: 20px;
   height: 10px;
   content: "";
-  border-top: solid 10px #00ccd6;
+  border-top: solid 10px #333333;
   border-left: solid 10px transparent;
   border-right: solid 10px transparent; 
 }
 
 #nav-trigger span:hover{
-  background-color: #333333;
-  color: #00ccd6;
+  background-color: #efefef;
+  color: #333333;
 }
 
 #nav-trigger span.open:after {
   border-left: solid 10px transparent;
   border-top: none;
-  border-bottom: solid 10px #00ccd6;
+  border-bottom: solid 10px #333333;
   border-right: solid 10px transparent; 
 }
 
@@ -65,24 +64,26 @@ body {
 }*/
 
 nav#nav-main {
-  background-color: #333333;
+  background-color: #efefef;
   padding: 10px 0;
   text-transform: uppercase;
   font-family: "Roboto";
   position: fixed;
   width: 100%;
+  opacity: 0.7;
+
 }
 
 nav#nav-main ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: right;
 }
 
 nav#nav-main li {
   display: inline-block;
-  border-right: solid 1px #00ccd6;
+  /*border-right: solid 1px #00ccd6;*/
   padding: 0 5px;
   /*font-weight: bold;*/
 
@@ -94,19 +95,19 @@ nav#nav-main li:last-child {
 
 nav#nav-main a {
   display: block;
-  color: #efefef;
+  color: #333333;
   padding: 10px 30px;
  }
 
 nav#nav-main a:hover {
-  background-color: #333333;
-  color: #00ccd6;
+  /*color: #00ccd6;*/
+  opacity: 0.5;
   text-decoration: none;
 }
 
-#nav-main a.active {
+/*#nav-main a.active {
   color: #00ccd6;
-}
+}*/
 
 nav#nav-mobile {
   position: relative;
@@ -120,7 +121,7 @@ nav#nav-mobile ul {
   right: 0;
   margin-left: -30px;
   text-align: center;
-  background-color: #333333;
+  background-color: #efefef;
   margin-bottom: 0px !important;
 }
 
@@ -130,7 +131,7 @@ nav#nav-mobile li {
   /*padding: 5px 0;*/
   text-transform: uppercase;
   margin: 0 -5px;
-  border-bottom: solid 1px #00ccd6;
+  border-bottom: solid 1px #333333;
 }
 
 nav#nav-mobile li:last-child {
@@ -139,14 +140,14 @@ nav#nav-mobile li:last-child {
 
 nav#nav-mobile a {
   display: block;
-  color: #efefef;
+  color: #333333;
   padding: 10px 30px;
   /*font-weight: bold;*/
 }
 
 nav#nav-mobile a:hover {
-  background-color: #333333;
-  color: #00ccd6;
+  background-color: #efefef;
+  color: #333333;
   text-decoration: none; 
 }
 
@@ -216,7 +217,7 @@ section.module h2 {
 }
 
 section.module h2 a{
-  color: #00ccd6;
+  color: #333333;
   text-decoration: none;
   text-align: center;
   opacity: 1.0;
@@ -235,7 +236,7 @@ section.module p {
 
 section.module p a{
  text-decoration: none;
- color: #00ccd6;
+ color: #333333;
  opacity: 1.0;
 }
 
@@ -249,14 +250,14 @@ section.module p:last-child {
 
 section.module.content {
   padding: 40px 0;
-  color: #efefef;
-  background-color: #333333 !important;
+  color: #333333;
+  background-color: #efefef !important;
 }
 
 section.module.content-2 {
   padding: 40px 0;
-  color: #efefef;
-  background-color: #333333 !important;
+  color: #333333;
+  background-color: #efefef !important;
   text-align: center;
 }
 
@@ -340,7 +341,7 @@ section.module.parallax.parallax-7 h1 {
 
 
 section.module.parallax-1 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4883.jpg");
+  background-image: url("../img/IMG_4883.jpg");
 }
 
 /*section.module.parallax-2 {
@@ -348,23 +349,23 @@ section.module.parallax-1 {
 } */
 
 section.module.parallax-3 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4958.jpg");
+  background-image: url("../img/IMG_4958.jpg");
 }
 
 section.module.parallax-4 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4973.jpg");
+  background-image: url("../img/IMG_4973.jpg");
 }
 
 section.module.parallax-5 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_5106.JPG");
+  background-image: url("../img/IMG_5106.JPG");
 }
 
 section.module.parallax-6 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4956.jpg");
+  background-image: url("../img/IMG_4956.jpg");
 }
 
 section.module.parallax-7 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/blurpsite/IMG_4932.jpg");
+  background-image: url("../img/IMG_4932.jpg");
 }
 
 
@@ -382,14 +383,26 @@ section.module.parallax-7 {
     background-attachment: scroll;
   }
 
+  img.header{
+    max-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -240px;
+  }
 
-  .container img{
+  #HA {
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ /* .container img{
   max-width: 300px;
   max-height: 300px;
   margin-left: -20px;
   margin-top: -250px;
   }
-
+*/
   section.module p {
     font-size: 15px;
   }
@@ -461,12 +474,26 @@ section.module.parallax-7 {
     font-size: 20px;
   }
 
+  img.header{
+    max-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+  }
+
+    #HA {
+    max-height: 200px;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+  /*
   .container img{
   max-width: 300px;
   max-height: 300px;
   margin-left: -20px;
   margin-top: -200px;
-  }
+  }*/
 
   section.module p {
     font-size: 15px;
@@ -541,16 +568,30 @@ section.module.parallax-7 {
 
 @media all and (min-width: 412px) {
   section.module h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
+  img.header{
+    max-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+  }
+
+    #HA {
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*
   .container img{
   max-width: 400px;
   max-height: 400px;
   margin-left: -20px;
   margin-top: -130px;
   }
-
+*/
   section.module p {
     font-size: 17px;
   }
@@ -625,12 +666,13 @@ section.module.parallax-7 {
 
 
 @media all and (min-width: 600px) {
+
   section.module h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   section.module p {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   section.module.parallax-1 {
@@ -656,12 +698,28 @@ section.module.parallax-7 {
     height: 450px;
   }
   
+
+  img.header{
+    max-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -190px;
+  }
+
+  #HA {
+    max-height: 300px;
+    margin-left: 50px;
+    margin-right: auto;
+  }
+
+/*
   .container img{
   max-width: 300px !important;
   max-height: 300px !important;
   margin-left: -20px;
   margin-top: -120px !important; 
   }
+  */
 
   section.module.parallax-5 {
     height: 380px;
@@ -728,16 +786,30 @@ section.module.parallax-7 {
   }
 
     section.module.parallax-4 {
-    height: 820px;
+    height: 600px;
   }
 
+  img.header{
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+
+  #HA {
+    max-height: 400px;
+    margin-left: 100px;
+    margin-right: auto;
+  }
+
+  /*
   .container img{
     max-width: 500px !important;
     max-height: 500px !important;
     margin-left: -20px;
     margin-top: 250px !important;
   }
-
+*/
 
     section.module.parallax-5 {
     height: 500px;
@@ -783,6 +855,8 @@ section.module.parallax-7 {
     font-size: 35px;
   }
 
+  
+
   section.module.parallax-1 {
     height: 820px;
   }
@@ -806,12 +880,26 @@ section.module.parallax-7 {
     height: 820px;
   }
 
-  .container img{
+  #HA {
+    max-width: 500px !important;
+    max-height: 500px !important;
+    margin-left: 210px;
+    margin-top: 0px !important;
+  }
+  
+  img.header{
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+  /*.container img{
     max-width: 500px !important;
     max-height: 500px !important;
     margin-left: -20px;
-    margin-top: 250px !important;
-  }
+    margin-top: 150px !important;
+  }*/
 
 
     section.module.parallax-5 {
@@ -861,7 +949,7 @@ section.module.parallax-7 {
   /*padding-top: 20px;*/
   clear: both;
   text-align: center;
-  background-color: #333333;
+  background-color: #efefef;
   margin-left: -30px;
 }
 
@@ -876,7 +964,7 @@ section.module.parallax-7 {
 
 .footer li {
   display: inline-block;
-  font-family: Open Sans;
+  font-family: "Roboto";
   font-size: 15px;
   text-transform: uppercase;
   padding-top: 10px;
@@ -886,8 +974,8 @@ section.module.parallax-7 {
 .rights {
   text-align: center;
   font-size: 9px;
-  background-color: #333333;
-  color: #efefef;
+  background-color: #efefef;
+  color: #333333;
 }
 
 .rights p {
