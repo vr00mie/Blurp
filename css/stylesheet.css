@@ -212,7 +212,14 @@ section.module:last-child {
 section.module h2 {
   margin-bottom: 40px;
   font-family: "Roboto";
-  font-size: 30px;
+  /*font-size: 30px;*/
+  text-align: center;
+}
+
+section.module h3 {
+  margin-bottom: 40px;
+  font-family: "Roboto";
+  /*font-size: 30px;*/
   text-align: center;
 }
 
@@ -229,7 +236,7 @@ section.module h2 a:hover{
 
 section.module p {
   margin-bottom: 40px;
-  font-size: 14px;
+  /*font-size: 14px;*/
   font-weight: 300;
   font-family: "Roboto";
 }
@@ -262,7 +269,7 @@ section.module.content-2 {
 }
 
 section.module.content-2 h2{
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
 section.module.parallax {
@@ -276,7 +283,7 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
-  font-size: 48px;
+  /*font-size: 48px;*/
   font-family: "Manifesto";
   line-height: 600px;
   text-align: center;
@@ -286,7 +293,7 @@ section.module.parallax h1 {
 
 section.module.parallax.parallax-3 h1 {
   color: white;
-  font-size: 45px;
+  /*font-size: 45px;*/
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -296,7 +303,7 @@ section.module.parallax.parallax-3 h1 {
 
 section.module.parallax.parallax-4 h1 {
   color: white;
-  font-size: 45px;
+  /*font-size: 45px;*/
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -306,7 +313,7 @@ section.module.parallax.parallax-4 h1 {
 
 section.module.parallax.parallax-5 h1 {
   color: white;
-  font-size: 45px;
+  /*font-size: 45px;*/
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -316,7 +323,7 @@ section.module.parallax.parallax-5 h1 {
 
 section.module.parallax.parallax-6 h1 {
   color: white;
-  font-size: 45px;
+  /*font-size: 45px;*/
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -326,7 +333,7 @@ section.module.parallax.parallax-6 h1 {
 
 section.module.parallax.parallax-7 h1 {
   color: white;
-  font-size: 45px;
+  /*font-size: 45px;*/
   line-height: 600px;
   font-weight: 700;
   text-align: center;
@@ -379,6 +386,10 @@ section.module.parallax-7 {
     font-size: 20px;
   }
 
+  section.module h3 {
+    font-size: 16px;
+  }
+
     section.module.parallax {
     background-attachment: scroll;
   }
@@ -404,7 +415,7 @@ section.module.parallax-7 {
   }
 */
   section.module p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   section.module.parallax-1 {
@@ -474,6 +485,10 @@ section.module.parallax-7 {
     font-size: 20px;
   }
 
+  section.module h3 {
+    font-size: 16px;
+  }
+
   img.header{
     max-height: 280px;
     margin-left: auto;
@@ -496,7 +511,7 @@ section.module.parallax-7 {
   }*/
 
   section.module p {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   section.module.parallax-1 {
@@ -514,7 +529,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-3 h1 {
     margin-top: -150px;
-    font-size: 25px;
+    font-size: 20px;
     word-wrap: break-word !important;
   }
 
@@ -523,7 +538,7 @@ section.module.parallax-7 {
   }
   
   section.module.parallax.parallax-4 h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   section.module.parallax-5 {
@@ -532,7 +547,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-5 h1 {
     margin-top: -120px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   section.module.parallax-6 {
@@ -541,7 +556,7 @@ section.module.parallax-7 {
   
   section.module.parallax.parallax-6 h1 {
     margin-top: -120px !important;
-    font-size: 25px;
+    font-size: 20px;
     word-wrap: break-word;
   }
 
@@ -551,7 +566,7 @@ section.module.parallax-7 {
 
    section.module.parallax.parallax-7 h1 {
     margin-top: -120px;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .rights p {
@@ -568,7 +583,11 @@ section.module.parallax-7 {
 
 @media all and (min-width: 412px) {
   section.module h2 {
-    font-size: 25px;
+    font-size: 24px;
+  }
+
+  section.module h3 {
+    font-size: 20px;
   }
 
   img.header{
@@ -593,7 +612,7 @@ section.module.parallax-7 {
   }
 */
   section.module p {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   section.module.parallax-1 {
@@ -611,7 +630,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-3 h1 {
     margin-top: -100px;
-    font-size: 28px;
+    font-size: 24px;
     word-wrap: break-word !important;
   }
 
@@ -621,7 +640,7 @@ section.module.parallax-7 {
   
 
   section.module.parallax.parallax-4 h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   section.module.parallax-5 {
@@ -630,7 +649,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-5 h1 {
     margin-top: -100px;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   section.module.parallax-6 {
@@ -639,7 +658,7 @@ section.module.parallax-7 {
   
   section.module.parallax.parallax-6 h1 {
     margin-top: -100px !important;
-    font-size: 28px;
+    font-size: 24px;
     word-wrap: break-word;
   }
 
@@ -649,7 +668,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-7 h1 {
     margin-top: -100px;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .rights p {
@@ -668,7 +687,11 @@ section.module.parallax-7 {
 @media all and (min-width: 600px) {
 
   section.module h2 {
-    font-size: 30px;
+    font-size: 34px;
+  }
+
+    section.module h3 {
+    font-size: 24px;
   }
 
   section.module p {
@@ -690,7 +713,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-3 h1 {
     margin-top: -100px;
-    font-size: 40px;
+    font-size: 34px;
     word-wrap: break-word !important;
   }
 
@@ -727,7 +750,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-5 h1 {
     margin-top: -120px;
-    font-size: 40px;
+    font-size: 34px;
   }
 
   section.module.parallax-6 {
@@ -736,7 +759,7 @@ section.module.parallax-7 {
   
   section.module.parallax.parallax-6 h1 {
     margin-top: -50px !important;
-    font-size: 40px;
+    font-size: 34px;
     word-wrap: break-word;
   }
 
@@ -746,7 +769,7 @@ section.module.parallax-7 {
 
   section.module.parallax.parallax-7 h1 {
     margin-top: -70px;
-    font-size: 40px;
+    font-size: 34px;
   }
  
   .rights p {
@@ -764,7 +787,15 @@ section.module.parallax-7 {
 @media all and (min-width: 960px) {
 
   section.module h2 {
-    font-size: 35px;
+    font-size: 34px;
+  }
+
+  section.module h3 {
+    font-size: 24px;
+  }
+
+  section.module p {
+    font-size: 20px;
   }
 
   section.module.parallax-1 {
@@ -781,7 +812,7 @@ section.module.parallax-7 {
   }
 
     section.module.parallax.parallax-3 h1 {
-    font-size: 50px;
+    font-size: 34px;
     margin-top: -50px; 
   }
 
@@ -816,7 +847,7 @@ section.module.parallax-7 {
   }
 
   section.module.parallax.parallax-5 h1 {
-    font-size: 50px;
+    font-size: 34px;
     margin-top: -50px;
   }
 
@@ -825,7 +856,7 @@ section.module.parallax-7 {
   }
 
    section.module.parallax.parallax-6 h1 {
-    font-size: 50px;
+    font-size: 34px;
     margin-top: -20px !important;
   }
 
@@ -834,7 +865,7 @@ section.module.parallax-7 {
   }
 
    section.module.parallax.parallax-7 h1 {
-    font-size: 50px;
+    font-size: 34px;
     margin-top: -50px;
   }
 
@@ -852,10 +883,16 @@ section.module.parallax-7 {
 @media all and (min-width: 1200px) {
 
   section.module h2 {
-    font-size: 35px;
+    font-size: 34px;
   }
 
-  
+      section.module h3 {
+    font-size: 24px;
+  }
+
+  section.module p {
+    font-size: 20px;
+  }
 
   section.module.parallax-1 {
     height: 820px;
@@ -872,7 +909,7 @@ section.module.parallax-7 {
   }
 
     section.module.parallax.parallax-3 h1 {
-    font-size: 70px;
+    font-size: 34px;
     margin-top: 0px; 
   }
 
@@ -907,7 +944,7 @@ section.module.parallax-7 {
   }
 
   section.module.parallax.parallax-5 h1 {
-    font-size: 70px;
+    font-size: 34px;
     margin-top: 0px;
   }
 
@@ -916,7 +953,7 @@ section.module.parallax-7 {
   }
 
    section.module.parallax.parallax-6 h1 {
-    font-size: 70px;
+    font-size: 34px;
     margin-top: 30px !important;
   }
 
@@ -925,7 +962,7 @@ section.module.parallax-7 {
   }
 
    section.module.parallax.parallax-7 h1 {
-    font-size: 70px;
+    font-size: 34px;
     margin-top: 10px;
   }
 
