@@ -16,9 +16,7 @@ body {
     ~~~~~~~~~~~~~~~~
 */
 
-#nav-trigger span img{
-max-height: 30px;  
-}
+
 
 #nav-trigger {
   display: none;
@@ -28,6 +26,18 @@ max-height: 30px;
   width: 100%;
   padding: 0px 0px;
 }
+
+#nav-trigger img.logo {
+  max-height: 30px;
+  text-align: right;
+}
+
+#nav-trigger p{
+    text-align: right;
+    margin-top: -35px;
+    margin-right: 10px;
+}
+
 
 #nav-trigger span {
   display: inline-block;
@@ -41,6 +51,7 @@ max-height: 30px;
 
 #nav-trigger span:after {
   display: inline-block;
+  margin-top: 10px;
   margin-left: 10px;
   width: 20px;
   height: 10px;
@@ -48,6 +59,7 @@ max-height: 30px;
   border-top: solid 10px #333333;
   border-left: solid 10px transparent;
   border-right: solid 10px transparent; 
+
 }
 
 #nav-trigger span:hover{
