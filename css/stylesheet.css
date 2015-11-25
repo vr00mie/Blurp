@@ -170,10 +170,10 @@ nav#nav-mobile a:hover {
   #nav-trigger {
     display: block; }
 
-  nav#nav-main {
+nav#nav-main {
     display: none; }
 
-  nav#nav-mobile {
+nav#nav-mobile {
     display: block; }
 }
 
@@ -229,6 +229,7 @@ section.module h2 {
   font-family: "Roboto";
   /*font-size: 30px;*/
   text-align: center;
+  border-bottom: solid 1px #333333;
 }
 
 section.module h3 {
@@ -399,13 +400,15 @@ section.module.parallax-7 {
 @media all and (min-width: 320px) {
   section.module h2 {
     font-size: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
   }
 
   section.module h3 {
     font-size: 16px;
   }
 
-    section.module.parallax {
+  section.module.parallax {
     background-attachment: scroll;
   }
 
@@ -483,7 +486,7 @@ section.module.parallax-7 {
     height: 350px;
   }
 
-   section.module.parallax.parallax-7 h1 {
+  section.module.parallax.parallax-7 h1 {
     margin-top: -120px;
     font-size: 20px;
   }
@@ -498,6 +501,8 @@ section.module.parallax-7 {
 @media all and (min-width: 360px) {
   section.module h2 {
     font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
   section.module h3 {
@@ -579,7 +584,7 @@ section.module.parallax-7 {
     height: 350px;
   }
 
-   section.module.parallax.parallax-7 h1 {
+  section.module.parallax.parallax-7 h1 {
     margin-top: -120px;
     font-size: 20px;
   }
@@ -599,6 +604,8 @@ section.module.parallax-7 {
 @media all and (min-width: 412px) {
   section.module h2 {
     font-size: 24px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
   section.module h3 {
@@ -612,7 +619,7 @@ section.module.parallax-7 {
     margin-top: -120px;
   }
 
-    #HA {
+  #HA {
     max-height: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -703,9 +710,11 @@ section.module.parallax-7 {
 
   section.module h2 {
     font-size: 34px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
-    section.module h3 {
+  section.module h3 {
     font-size: 24px;
   }
 
@@ -803,6 +812,8 @@ section.module.parallax-7 {
 
   section.module h2 {
     font-size: 34px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
 
   section.module h3 {
@@ -822,16 +833,16 @@ section.module.parallax-7 {
     font-size: 112px;
   }
 
-    section.module.parallax-3 {
+  section.module.parallax-3 {
     height: 500px;
   }
 
-    section.module.parallax.parallax-3 h1 {
+  section.module.parallax.parallax-3 h1 {
     font-size: 34px;
     margin-top: -50px; 
   }
 
-    section.module.parallax-4 {
+  section.module.parallax-4 {
     height: 600px;
   }
 
@@ -857,7 +868,7 @@ section.module.parallax-7 {
   }
 */
 
-    section.module.parallax-5 {
+  section.module.parallax-5 {
     height: 500px;
   }
 
@@ -870,16 +881,16 @@ section.module.parallax-7 {
     height: 500px;
   }
 
-   section.module.parallax.parallax-6 h1 {
+  section.module.parallax.parallax-6 h1 {
     font-size: 34px;
     margin-top: -20px !important;
   }
 
-    section.module.parallax-7 {
+  section.module.parallax-7 {
     height: 500px;
   }
 
-   section.module.parallax.parallax-7 h1 {
+  section.module.parallax.parallax-7 h1 {
     font-size: 34px;
     margin-top: -50px;
   }
@@ -899,6 +910,8 @@ section.module.parallax-7 {
 
   section.module h2 {
     font-size: 34px;
+    margin-right: 200px;
+    margin-left: 200px;
   }
 
       section.module h3 {
@@ -916,19 +929,18 @@ section.module.parallax-7 {
   section.module.parallax.parallax-1 h1 {
     margin-top: 150px;
     font-size: 112px;
-    margin-left: -100px;
   }
 
-    section.module.parallax-3 {
+  section.module.parallax-3 {
     height: 600px;
   }
 
-    section.module.parallax.parallax-3 h1 {
+  section.module.parallax.parallax-3 h1 {
     font-size: 34px;
     margin-top: 0px; 
   }
 
-    section.module.parallax-4 {
+  section.module.parallax-4 {
     height: 820px;
   }
 
@@ -954,7 +966,7 @@ section.module.parallax-7 {
   }*/
 
 
-    section.module.parallax-5 {
+  section.module.parallax-5 {
     height: 600px;
   }
 
@@ -967,16 +979,16 @@ section.module.parallax-7 {
     height: 600px;
   }
 
-   section.module.parallax.parallax-6 h1 {
+  section.module.parallax.parallax-6 h1 {
     font-size: 34px;
     margin-top: 30px !important;
   }
 
-    section.module.parallax-7 {
+  section.module.parallax-7 {
     height: 600px;
   }
 
-   section.module.parallax.parallax-7 h1 {
+  section.module.parallax.parallax-7 h1 {
     font-size: 34px;
     margin-top: 10px;
   }
